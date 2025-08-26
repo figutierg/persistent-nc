@@ -1,0 +1,16 @@
+ {
+    "EXPERIMENT_NAME": "DenseNet121_Aircraft_200epochs_Final",
+    "SNAPSHOT_DIR": "snapshots/aircraft/densenet121",
+    "ARCHITECTURE_NAME": "densenet121",
+    "DATASET_NAME": "Aircraft",
+    "CLASSES_TO_USE": "all",
+    "N_EPOCHS": 200,
+    "BATCH_SIZE": 64,
+    "TRAIN_LR": 0.001,
+    "SCHEDULER_PATIENCE": 5,
+    "SCHEDULER_FACTOR": 0.5,
+    "PD_SAMPLE_SIZE": 2048,
+    "PD_MAX_EDGE_LENGTH": 30.0,
+    "NC_SAMPLE_SIZE": 10000,
+    "SAVE_MODEL_HISTORY": true
+}
